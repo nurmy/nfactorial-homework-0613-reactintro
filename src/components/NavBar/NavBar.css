@@ -1,0 +1,47 @@
+.navbar {
+    padding: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7%;
+    max-height: 7%;
+    background-color: #424242;
+}
+
+.leftNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 30%;
+    height: 100%;
+}
+
+.rightNav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    color: white;
+}
+
+::placeholder {
+    color: #bdbdbd;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        justify-content: center;
+    }
+
+    .leftNav {
+        justify-content: space-between;
+        width: 100%;
+    }
+    .rightNav {
+        display: none;
+    }
+}

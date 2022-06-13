@@ -17,9 +17,10 @@ function Search() {
                     borderRadius: '25px',
                     backgroundColor: '#616161',
                     color: '#e0e0e0',
-                    padding: '0 20px',
+                    paddingLeft: 10,
+                    paddingRight: 10,
                     fontSize: '18px',
-                    width: '80%',
+                    width: '90%',
                     height: '100%',
                 }}
             />

@@ -2,7 +2,7 @@ import React from 'react'
 
 import Logo from '../Logo/Logo.js'
 import Search from '../Search/Search.js'
-import Date from '../Date/Date.js'
+import DateBlock from '../DateBlock/DateBlock.js'
 
 import './NavBar.css'
 
@@ -14,7 +14,7 @@ function NavBar(props) {
                 <Search />
             </div>
             <div className="rightNav">
-                <Date />
+                <DateBlock />
             </div>
         </div>
     )

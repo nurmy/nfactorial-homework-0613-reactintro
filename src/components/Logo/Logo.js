@@ -7,6 +7,9 @@ function Logo(props) {
                 height: '100%',
                 width: '20%',
                 marginRight: '10px',
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
             }}
         >
             <img
